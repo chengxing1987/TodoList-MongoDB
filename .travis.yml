@@ -16,9 +16,6 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then tar xzvf swift-3.0-RELEASE-ubuntu14.04.tar.gz    ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then export PATH=swift-3.0-RELEASE-ubuntu14.04/usr/bin:$PATH    ; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get -y install clang libicu-dev libkqueue-dev libtool libcurl4-openssl-dev libbsd-dev libblocksruntime-dev mongodb ; fi
-  - git clone https://github.com/IBM-Swift/todolist-tests
-  - cd todolist-tests && cd ..
-  - mv todolist-tests Tests
   - sudo mkdir -p /data/db
   - sudo mkdir -p ~/log
   - sudo mongod --fork --logpath ~/log/mongodb.log
