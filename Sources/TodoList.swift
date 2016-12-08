@@ -27,11 +27,11 @@ import LoggerAPI
 
 public class TodoList: TodoListAPI {
 
-    static let defaultMongoHost = "127.0.0.1"
-    static let defaultMongoPort = UInt16(27017)
+    static let defaultMongoHost = "DYUDGAPQJQUZFDIK@bluemix-sandbox-dal-9-portal.0.dblayer.com"
+    static let defaultMongoPort = UInt16(19804)
     static let defaultDatabaseName = "todolist"
-    static let defaultUsername = "username"
-    static let defaultPassword = "password"
+    static let defaultUsername = "admin"
+    static let defaultPassword = "DYUDGAPQJQUZFDIK"
 
     let databaseName = TodoList.defaultDatabaseName
 
