@@ -1,7 +1,7 @@
 declared-services:
-  TodoList-MongoDB:
+  Compose for MongoDB-5e:
     name: Compose for MongoDB-5e
-    label: user-provided
+    label: Standard
 applications:
 - name: todolist-mongodb
   memory: 256M
