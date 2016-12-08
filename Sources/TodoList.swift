@@ -27,7 +27,7 @@ import LoggerAPI
 
 public class TodoList: TodoListAPI {
 
-    static let defaultMongoHost = "DYUDGAPQJQUZFDIK@bluemix-sandbox-dal-9-portal.0.dblayer.com"
+    static let defaultMongoHost = "bluemix-sandbox-dal-9-portal.0.dblayer.com"
     static let defaultMongoPort = UInt16(19804)
     static let defaultDatabaseName = "todolist"
     static let defaultUsername = "admin"
